@@ -2,9 +2,11 @@
 /***********menu*****************/
 /********************************/
 
+
 header {
-  background-color: #4260f5;
-  height: 60px;
+  background-color: #c9921a;
+  position: fixed;
+  height: 70px;
   top:0;
   left:0;
   width:100%;
@@ -12,6 +14,71 @@ header {
   padding: 0;
 }
 
+button {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  left: 18px;
+  border: 0;
+  pointer-events: none;
+  background: transparent;
+  z-index: 5;
+}
 
+button span{
+  display: block;
+  width: 45px;
+  height: 8px;
+  background-color: black;
+  border-radius: 6px;
+  margin-bottom: 3px;
+}
 
+.menuBtn {
+  position: fixed;
+  top: 15px;
+  left: 25px;
+  width: 45px;
+  height: 45px;
+  opacity: 0;
+  z-index: 1;
 
+}
+
+input:checked+ .menu button span {
+  position: fixed;
+  transition: all 0.3s ease-in-out;
+}
+
+input:checked+ .menu button span:nth-child(2) {
+  opacity: 0;
+}
+
+input:checked+ .menu button span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+input:checked+ .menu button span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+nav {
+  position: fixed;
+  background-color:  #996b08;
+  top: 70px;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+}
+
+input:checked+ .menu nav {
+  opacity: 1;
+  visibility: visible;
+}
