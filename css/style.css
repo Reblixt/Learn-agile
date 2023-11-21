@@ -147,3 +147,23 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.section2{
+  background-color: rgb(170, 141, 126);
+}
+
+ .section2 p{
+  max-width: 80%;
+  margin-left: 2%;
+  
+}
+.list2{
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.header2{
+  font-size: 2rem;
+  max-width: 80%;
+  margin-left: 2%;
+  
+}
