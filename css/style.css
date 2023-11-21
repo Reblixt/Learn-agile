@@ -150,20 +150,36 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .section2{
   background-color: rgb(170, 141, 126);
+
 }
 
  .section2 p{
   max-width: 80%;
   margin-left: 2%;
+  font-size: 18px;
   
 }
 .list2{
   font-weight: bolder;
-  font-size: 1.3rem;
+  font-size: 26px;
 }
 .header2{
   font-size: 2rem;
   max-width: 80%;
   margin-left: 2%;
+  
+}
+.section2 img{
+  max-height: 300px;
+  max-width:  400px;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+.header1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 80%;
   
 }
