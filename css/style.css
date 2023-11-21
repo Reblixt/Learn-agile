@@ -12,17 +12,6 @@ header {
   padding: 0;
 }
 
-.logo {
-  position: fixed;
-  top: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 40px;
-  background-color: #c9921a;
-  z-index: 3;
-}
-
 button {
   position: fixed;
   width: 45px;
@@ -110,6 +99,20 @@ input:checked + .menu nav {
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   list-style-type: none;
+}
+
+/************************************/
+/***********LOGO*********************/
+/************************************/
+.logo {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 40px;
+  background-color: #c9921a;
+  z-index: 3;
 }
 
 /*
