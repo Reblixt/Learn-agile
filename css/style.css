@@ -257,3 +257,30 @@ picture.hero {
   justify-items: stretch;
   align-items: stretch;
 }/*# sourceMappingURL=style.css.map */
+
+@media screen and (min-width: 960px){
+  .header2{
+      text-align: center;
+      flex-wrap: nowrap;
+      max-width: 100%;
+      font-size: 3rem;
+      margin-left: 0;
+     
+  }
+  .section2 img{
+      max-width: 600px;
+      max-height: 800px; 
+      align-items: center;
+      
+  }
+  .section2 p{
+    max-width: 95%;
+    margin-left: 3%;
+  }
+  .list2{
+    margin-left: 2%;
+  }
+
+
+
+}
