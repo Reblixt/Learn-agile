@@ -243,4 +243,17 @@ input[type=text] {
 
 .form-submit-button:hover {
   background-color: #45a049;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+picture.hero {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-evenly;
+  justify-items: stretch;
+  align-items: stretch;
 }/*# sourceMappingURL=style.css.map */
