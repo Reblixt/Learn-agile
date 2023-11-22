@@ -2,3 +2,63 @@
     top: 70px;
     position: relative;
 }
+
+.section2 p {
+    max-width: 80%;
+    margin-left: 2%;
+    font-size: 18px;
+
+}
+
+.list2 {
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.header2 {
+    font-size: 2rem;
+    max-width: 80%;
+    margin-left: 2%;
+    margin-top: 20%;
+
+}
+
+.section2 img {
+    max-height: 300px;
+    max-width: 400px;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 5%;
+
+}
+
+.header1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c9921a;
+    padding: 15px;
+
+}
+
+.section3 {
+    padding-bottom: 15%;
+
+}
+
+body {
+    background-color: bisque;
+}

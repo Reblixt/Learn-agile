@@ -10,6 +10,7 @@ header {
   width: 100%;
   margin: 0;
   padding: 0;
+  z-index: 3;
 }
 
 button {
@@ -72,7 +73,7 @@ nav {
   transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
   opacity: 0;
   visibility: hidden;
-  z-index: 2;
+  z-index: 3;
 }
 
 input:checked + .menu nav {
@@ -152,60 +153,94 @@ p, h1, h2, h3, h4, h5, h6 {
 .section1 {
   top: 70px;
   position: relative;
-}/*# sourceMappingURL=style.css.map */
-.section2 p{
+}
+
+.section2 p {
   max-width: 80%;
   margin-left: 2%;
   font-size: 18px;
-  
 }
-.list2{
+
+.list2 {
   font-weight: bolder;
   font-size: 26px;
 }
-.header2{
+
+.header2 {
   font-size: 2rem;
   max-width: 80%;
   margin-left: 2%;
   margin-top: 20%;
-  
 }
-.section2 img{
+
+.section2 img {
   max-height: 300px;
-  max-width:  400px;
+  max-width: 400px;
   margin-top: 5%;
   margin-left: 25%;
   border-radius: 5%;
-  
 }
-.header1{
- 
+
+.header1 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   max-width: 80%;
 }
-.footer{
+
+.footer {
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   bottom: 0;
   left: 0;
-  width: 100%; 
+  width: 100%;
   background-color: #c9921a;
   padding: 15px;
-  
 }
 
-.section3{
+.section3 {
   padding-bottom: 15%;
-  
 }
-body{
+
+body {
   background-color: bisque;
 }
 
+/* _form.scss */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+label {
+  display: block;
+  margin-bottom: 8px;
+}
 
+input[type=text] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.form-submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 70px;
+}
+
+.form-submit-button:hover {
+  background-color: #45a049;
+}/*# sourceMappingURL=style.css.map */
